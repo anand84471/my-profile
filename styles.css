@@ -387,6 +387,14 @@ section {
     font-weight: 500;
 }
 
+.skill-tag.featured {
+    background: linear-gradient(135deg, #10b981, #059669);
+    color: white;
+    font-weight: 600;
+    box-shadow: 0 2px 4px rgba(16, 185, 129, 0.2);
+    transform: scale(1.02);
+}
+
 /* Education Section */
 .education {
     padding: 6rem 0 5rem 0;
@@ -1956,6 +1964,15 @@ section {
     font-weight: 500;
 }
 
+.skill-tag.featured {
+    background: linear-gradient(135deg, #10b981, #059669);
+    color: white;
+    font-weight: 600;
+    box-shadow: 0 4px 8px rgba(16, 185, 129, 0.3);
+    transform: scale(1.05);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
 /* Research Section */
 .research {
     padding: 6rem 0 5rem 0; /* Extra top padding for fixed navbar */
@@ -2511,6 +2528,63 @@ section {
         padding-left: 2.5rem;
     }
 
+    .education-content {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+        text-align: left !important;
+        margin-bottom: 1.5rem;
+    }
+
+    .education-header {
+        margin-bottom: 1rem;
+    }
+
+    .education-header h3 {
+        font-size: 1.125rem;
+        line-height: 1.4;
+        margin-bottom: 0.75rem;
+    }
+
+    .institution {
+        font-size: 0.9rem;
+        margin-bottom: 0.5rem;
+        display: block;
+    }
+
+    .duration {
+        font-size: 0.8rem;
+        margin-right: 0.75rem;
+    }
+
+    .grade {
+        font-size: 0.8rem;
+        display: block;
+        margin-top: 0.25rem;
+    }
+
+    .education-body {
+        margin-top: 1rem;
+    }
+
+    .education-body p {
+        font-size: 0.9rem;
+        line-height: 1.5;
+        margin-bottom: 0.75rem;
+    }
+
+    .education-body ul {
+        margin-top: 0.75rem;
+    }
+
+    .education-body li {
+        font-size: 0.85rem;
+        line-height: 1.4;
+        margin-bottom: 0.4rem;
+        padding-left: 1.25rem;
+    }
+
     .publications-grid {
         grid-template-columns: 1fr;
     }
@@ -2564,6 +2638,52 @@ section {
     .btn {
         width: 100%;
         max-width: 300px;
+    }
+
+    /* Education section improvements for small screens */
+    .education {
+        padding: 4rem 0 3rem 0;
+    }
+
+    .education-item {
+        padding-left: 2rem;
+    }
+
+    .education-timeline::before {
+        left: 12px;
+    }
+
+    .education-marker {
+        left: 4px;
+        width: 12px;
+        height: 12px;
+    }
+
+    .education-content {
+        padding: 1rem 0.75rem !important;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+    }
+
+    .education-header h3 {
+        font-size: 1rem;
+        line-height: 1.3;
+    }
+
+    .institution {
+        font-size: 0.85rem;
+    }
+
+    .duration, .grade {
+        font-size: 0.75rem;
+    }
+
+    .education-body p {
+        font-size: 0.85rem;
+    }
+
+    .education-body li {
+        font-size: 0.8rem;
+        padding-left: 1rem;
     }
 }
 
